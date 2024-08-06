@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Overpass Mono', monospace;
+}
+
+body {
+  background-color: #1f1b20;
+}
+
+.active {
+  color: #bd59ff;
+}
+
+.active::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #bd59ff;
+  width: 100%;
+  transition: all 0.2s;
+}
