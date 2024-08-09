@@ -15,8 +15,6 @@ export default function App() {
         <Route path="resume" element={<Resume />} />
         <Route path="contacts" element={<Contacts />} />
       </Routes>
-      <div className=" absolute bottom-0 h-1 rounded-t-full w-screen bg-pruple"></div>
-      <div className=" absolute top-0 h-1 rounded-b-full w-screen bg-pruple"></div>
     </div>
   );
 }
